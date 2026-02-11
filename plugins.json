@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "url": "https://raw.githubusercontent.com/ayhankucuk/ayhn/builds/test.cs3",
+    "status": 1,
+    "version": 1,
+    "name": "Test Eklentisi",
+    "internalName": "TestEklenti",
+    "authors": [
+      "Ayhan"
+    ],
+    "description": "Bu geçici bir test eklentisidir. GitHub Actions düzeltilince gerçek eklentiler gelecek.",
+    "fileSize": 1024,
+    "repositoryUrl": "https://github.com/ayhankucuk/ayhn",
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "iconUrl": "https://via.placeholder.com/128",
+    "apiVersion": 1
+  }
+]
