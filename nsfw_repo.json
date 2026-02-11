@@ -1,0 +1,10 @@
+{
+    "name": "Ayhan NSFW Deposu (+18)",
+    "description": "Yetişkin içerik koleksiyonu - Sadece davetliler için",
+    "manifestVersion": 1,
+    "pluginLists": [
+        "https://raw.githubusercontent.com/ayhankucuk/ayhn/builds/nsfw.json"
+    ],
+    "categoryList": [],
+    "news": []
+}

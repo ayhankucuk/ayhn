@@ -5,8 +5,14 @@ rootProject.name = "CloudstreamPlugins"
 val disabled = listOf("__Temel")
 
 File(rootDir, ".").eachDir { dir ->
-    if (!disabled.contains(dir.name) && File(dir, "build.gradle.kts").exists()) {
-        include(dir.name)
+    if (!disabled.contains(dir.name)) {
+        // Alt klasörleri tara (Sinema/HDFilm gibi yapıları desteklemek için)
+        dir.walkTopDown().forEach { subDir ->
+            if (File(subDir, "build.gradle.kts").exists() && subDir != rootDir) {
+                val relPath = subDir.relativeTo(rootDir).path.replace(File.separator, ":")
+                include(relPath)
+            }
+        }
     }
 }
 

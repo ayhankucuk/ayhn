@@ -1,8 +1,61 @@
 {
-    "name": "Turkish Providers Repository | @KekikAkademi",
-    "description": "Türkçe içerikli eklenti havuzu",
+    "name": "Ayhan'ın Özel Deposu",
+    "description": "Kişisel CloudStream eklenti koleksiyonu - Arkadaşlar için",
     "manifestVersion": 1,
     "pluginLists": [
-      "https://raw.githubusercontent.com/keyiflerolsun/Kekik-cloudstream/builds/plugins.json"
-    ]
+        "https://raw.githubusercontent.com/ayhankucuk/ayhn/builds/plugins.json"
+    ],
+    "categoryList": [
+        {
+            "name": "Belgesel",
+            "description": "Belgesel kanalları",
+            "category": "Belgesel"
+        },
+        {
+            "name": "Disney+",
+            "description": "Disney+ içerikleri",
+            "category": "Disney"
+        },
+        {
+            "name": "Exxen",
+            "description": "Exxen orijinal içerikleri",
+            "category": "Exxen"
+        },
+        {
+            "name": "Gain",
+            "description": "Gain orijinal içerikleri",
+            "category": "Gain"
+        },
+        {
+            "name": "Genel",
+            "description": "Genel içeriği",
+            "category": "Genel"
+        },
+        {
+            "name": "Global & Karışık",
+            "description": "Evrensel kaynaklar",
+            "category": "Global-Mixed"
+        },
+        {
+            "name": "Yetişkin",
+            "description": "Yetişkin içerikler (+18)",
+            "category": "NSFW"
+        },
+        {
+            "name": "Anime",
+            "description": "Anime platformları",
+            "category": "TR-Anime"
+        },
+        {
+            "name": "Sinema & Dizi",
+            "description": "Film ve dizi siteleri",
+            "category": "TR-Cinema"
+        },
+        {
+            "name": "Spor & Canlı TV",
+            "description": "Canlı yayınlar",
+            "category": "TR-TV"
+        }
+    ],
+    "news": []
 }

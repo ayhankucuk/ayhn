@@ -1,6 +1,6 @@
-// ! Bu araç @keyiflerolsun tarafından | @KekikAkademi için yazılmıştır.
+// ! Bu araç @ayhankucuk tarafından | @Özel CloudStream Havuzu için yazılmıştır.
 
-package com.keyiflerolsun
+package com.ayhankucuk
 
 import android.util.Log
 import org.jsoup.nodes.Element
