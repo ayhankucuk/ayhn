@@ -10,3 +10,34 @@
 .cxx
 local.properties
 .vscode
+
+# Gereksiz dokümantasyon dosyaları
+README.md
+MiBox.md
+LICENSE
+_config.yml
+
+# Opsiyonel script'ler
+check_dead_links.py
+
+# Artifact klasörü (Gemini AI)
+.gemini/
+
+# Log ve rapor dosyaları
+*.txt
+rapor_*.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# News dosyası (opsiyonel)
+news.json
